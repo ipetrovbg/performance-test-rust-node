@@ -1,5 +1,8 @@
 service: nodejs
 
+plugins:
+  - serverless-plugin-lambda-insights
+
 provider:
   name: aws
   runtime: nodejs16.x
@@ -10,6 +13,7 @@ provider:
 functions:
   nodejs:
     handler: main.main
+    lambdaInsights: true
     events:
       - httpApi:
           method: 'GET'

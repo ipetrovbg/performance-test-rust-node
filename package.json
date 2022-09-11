@@ -8,6 +8,7 @@
     "serverless-compose": "^2.4.0"
   },
   "devDependencies": {
-    "@serverless/compose": "^1.2.4"
+    "@serverless/compose": "^1.2.4",
+    "serverless-plugin-lambda-insights": "^1.6.0"
   }
 }

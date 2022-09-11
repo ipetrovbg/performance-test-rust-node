@@ -1,4 +1,8 @@
 service: rust
+
+plugins:
+  - serverless-plugin-lambda-insights
+
 provider:
   name: aws
   runtime: provided
@@ -11,6 +15,7 @@ package:
 functions:
   rust:
     handler: bootstrap
+    lambdaInsights: true
     package:
       individually: true
       exclude:
