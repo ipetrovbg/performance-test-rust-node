@@ -31,7 +31,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --release --target=x86_64-unknown-linux-musl -p hello
+          args: --release --target=x86_64-unknown-linux-musl -p rust
       - run: mv target/x86_64-unknown-linux-musl/release/bootstrap rust/bootstrap
       - run: npm install
       - run: npm install -g serverless
