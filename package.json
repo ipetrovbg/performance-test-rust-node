@@ -1,0 +1,13 @@
+{
+  "name": "performance-test-rust-nodejs",
+  "version": "1.0.0",
+  "author": "ipetrovbg@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^3.19.0",
+    "serverless-compose": "^2.4.0"
+  },
+  "devDependencies": {
+    "@serverless/compose": "^1.2.4"
+  }
+}

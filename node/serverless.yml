@@ -1,0 +1,14 @@
+service: nodejs
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  memorySize: 128
+  region: eu-central-1
+  endpointType: REGIONAL
+
+functions:
+  nodejs:
+    handler: main.main
+    events:
+      - httpApi: '/node'
