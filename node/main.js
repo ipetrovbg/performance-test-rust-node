@@ -1,3 +1,3 @@
-export const main = () => {
-  console.log('initializing nodejs lambda');
+exports.main = function () {
+  console.log('initializing nodejs lambda!');
 }

@@ -17,7 +17,7 @@ async fn main() -> Result<(), lambda_runtime::Error> {
     Ok(())
 }
 
-async fn rust_handler(_ev: (), _context: Context) -> Result<(), Error> {
+async fn rust_handler(_ev: i8, _context: Context) -> Result<(), Error> {
     info!("Initializing rust lambda!");
 
     Ok(())
