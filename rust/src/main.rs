@@ -1,4 +1,4 @@
-use lambda_runtime::{handler_fn};
+use lambda_runtime::{handler_fn, Context};
 use log::{info, LevelFilter};
 use simple_logger::SimpleLogger;
 
@@ -17,7 +17,7 @@ async fn main() -> Result<(), lambda_runtime::Error> {
     Ok(())
 }
 
-async fn rust_handler() -> Result<(), Error> {
+async fn rust_handler(_ev: (), _context: Context) -> Result<(), Error> {
     info!("Initializing rust lambda!");
 
     Ok(())
