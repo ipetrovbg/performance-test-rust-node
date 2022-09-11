@@ -1,0 +1,11 @@
+/Users/petarpetrov/Documents/projects/performance-test-rust-nodejs/target/debug/deps/httparse-dbe9da49bee810f7.rmeta: /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/fallback.rs
+
+/Users/petarpetrov/Documents/projects/performance-test-rust-nodejs/target/debug/deps/libhttparse-dbe9da49bee810f7.rlib: /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/fallback.rs
+
+/Users/petarpetrov/Documents/projects/performance-test-rust-nodejs/target/debug/deps/httparse-dbe9da49bee810f7.d: /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/fallback.rs
+
+/Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs:
+/Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs:
+/Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs:
+/Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs:
+/Users/petarpetrov/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/fallback.rs:

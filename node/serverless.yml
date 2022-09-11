@@ -11,4 +11,6 @@ functions:
   nodejs:
     handler: main.main
     events:
-      - httpApi: '/node'
+      - httpApi:
+          method: 'GET'
+          path: '/node'

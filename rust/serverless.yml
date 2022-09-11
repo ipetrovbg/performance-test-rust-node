@@ -18,4 +18,6 @@ functions:
       include:
         - ./bootstrap
     events:
-      - httpApi: '/rust'
+      - httpApi:
+          method: 'GET'
+          path: '/rust'
