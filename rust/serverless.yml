@@ -1,0 +1,21 @@
+service: rust
+provider:
+  name: aws
+  runtime: provided
+  memorySize: 128
+  region: eu-central-1
+
+package:
+  individually: true
+
+functions:
+  rust:
+    handler: bootstrap
+    package:
+      individually: true
+      exclude:
+        - '**/**'
+      include:
+        - ./bootstrap
+    events:
+      - httpApi: '/rust'
