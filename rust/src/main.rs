@@ -1,6 +1,7 @@
 use lambda_runtime::{handler_fn, Context};
 use log::{info, LevelFilter};
 use simple_logger::SimpleLogger;
+use serde_json::Value;
 
 type Error = Box<dyn std::error::Error + Sync + Send + 'static>;
 
@@ -17,7 +18,7 @@ async fn main() -> Result<(), lambda_runtime::Error> {
     Ok(())
 }
 
-async fn rust_handler(_ev: i8, _context: Context) -> Result<(), Error> {
+async fn rust_handler(_ev: Value, _context: Context) -> Result<(), Error> {
     info!("Initializing rust lambda!");
 
     Ok(())

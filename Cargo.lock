@@ -475,6 +475,7 @@ dependencies = [
  "lambda_runtime",
  "log",
  "openssl",
+ "serde_json",
  "simple_logger",
  "tokio",
 ]
